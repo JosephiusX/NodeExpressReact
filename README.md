@@ -65,4 +65,25 @@ git add .
 git add commit -m "changed greeting"
 git push heroku main
 
+# Google Oauth
 
+20. Setting up passport:
+
+    install in project:
+        yarn add passport
+        yarn add passport-google-oauth20
+
+23. Instructions for setting up our project with google cloud
+
+        -we create a google cloud project
+        -enable google oauth API
+        -create credintials for API
+
+Securing our client secret:
+
+    in project mkdir config
+    in config touch keys.js
+    in .gitinit add :
+        keys.js
+
+placing our id and secret in a module.exports objec. now we can ignore thease files in our .gitignore file 
