@@ -42,8 +42,27 @@ add our app to the heroku repo(in our server dir):
 
     git remote add  heroku <heroku git deployment url>
             in this instance
-    git remote add heroku https://git.heroku.com/powerful-mesa-10151.git
+    git remote add heroku https://git.heroku.com/stormy-lake-15654.git
 
     git push heroku master
+    * git push heroku main
+
+app url(one we got from heroku create):
+
+    https://stormy-lake-15654.herokuapp.com/
+
+    or:
+        heroku open
+
+# To redeploy in the future:
+
+lets say we make a change to our codebase
+
+     make sure all files are saved
+        git status to check 
+
+git add .
+git add commit -m "changed greeting"
+git push heroku main
 
 
