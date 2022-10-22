@@ -87,3 +87,10 @@ Securing our client secret:
         keys.js
 
 placing our id and secret in a module.exports objec. now we can ignore thease files in our .gitignore file 
+
+26. Testing OAuth (after updating index.js)
+
+        localhost:5000/auth/google
+SUCCESS, we see a google auth box with my email address.
+
+stage one of authentication complete
