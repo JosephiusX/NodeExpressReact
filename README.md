@@ -101,3 +101,21 @@ stage one of authentication complete
 
 we have our outhentication setup FTMP, we just cant really use it yet until we have a frontend to log in with.
 ill just have to be happy with no errors for right now. 
+
+# 47 . Problems with passport v 0.6.0
+
+    solution:
+        uninstall and reinstall weith version 0.5.0 for now
+
+# 47. Testing authentication
+
+if we compare:
+
+    http://localhost:5000/auth/google
+
+with:
+
+    http://localhost:5000/api/current_user
+        we should see a google id returned
+
+it works!!!
