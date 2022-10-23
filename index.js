@@ -1,6 +1,8 @@
 // common js module
 const express = require('express');
 const mongoose = require('mongoose');
+const cookieSession = require('cookie-session');
+const passport = require('passport');
 const keys = require('./config/keys');
 require('./models/User');
 require('./services/passport'); // if nothings being returned, we can just require it
@@ -8,6 +10,15 @@ require('./services/passport'); // if nothings being returned, we can just requi
 mongoose.connect(keys.mongoURI);
 
 const app = express();
+
+app.use(
+  cookieSession({
+    maxAge: 30 * 24 * 60 * 1000,
+    keys: [keys.cookieKey]
+  })
+);
+app.use(passport.initialize());
+app.use(passport.session());
 
 // require auth routes function from that file, and immidietly call with the app object
 require('./routes/authRoutes')(app); 
