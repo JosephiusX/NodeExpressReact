@@ -2,8 +2,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const keys = require('./config/keys');
+require('./models/User');
 require('./services/passport'); // if nothings being returned, we can just require it
-
 
 mongoose.connect(keys.mongoURI);
 
