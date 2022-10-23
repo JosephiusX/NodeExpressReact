@@ -9,6 +9,13 @@ passport.serializeUser((user, done) => {
   done(null, user.id); // ID assigned to this record by mongo, not the google ID, 
 });
 
+passport.deserializeUser((id, done ) => {
+  User.findById(id)
+    .then( user => {
+      done(null, user)
+    })
+});
+
 passport.use(
   new GoogleStrategy(
     {
