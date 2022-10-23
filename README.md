@@ -97,4 +97,7 @@ stage one of authentication complete
 
 # 35. Mongodb Setup and Configuration
 
-#
+# 46. Enableing cookies
+
+we have our outhentication setup FTMP, we just cant really use it yet until we have a frontend to log in with.
+ill just have to be happy with no errors for right now. 
