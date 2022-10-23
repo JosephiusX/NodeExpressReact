@@ -94,3 +94,5 @@ placing our id and secret in a module.exports objec. now we can ignore thease fi
 SUCCESS, we see a google auth box with my email address.
 
 stage one of authentication complete
+
+# 35. Mongodb Setup and Configuration
