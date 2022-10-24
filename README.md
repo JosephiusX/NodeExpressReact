@@ -139,3 +139,5 @@ according to :
     https://www.udemy.com/course/node-with-react-fullstack-web-development/learn/lecture/7604934#questions/8480184
 
 my error may have something to do with the ip address set for my mongo atlas
+
+?maybe change ip address on my cluster before rebuild
