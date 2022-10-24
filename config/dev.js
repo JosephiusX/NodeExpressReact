@@ -24,7 +24,7 @@ module.exports = {
 
 
 
-  // emaily-prod
+  // emailyprod
     // mongodb creds:
       //KhzjULNEPp2WLbhx
       //mongodb+srv://emailyprod:KhzjULNEPp2WLbhx@cluster0.d3e1rmj.mongodb.net/?retryWrites=true&w=majority
