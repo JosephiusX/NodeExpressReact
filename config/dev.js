@@ -15,8 +15,10 @@ module.exports = {
   cookieKey: ':mf94j65i9w485ui', // random
 }
 
+
+
   // emaily-prod
-// ug6ZXMMY1GJAlYUB
+// bEuBUFyd4VdpcOxG
 // mongodb+srv://emaily-prod:ug6ZXMMY1GJAlYUB@cluster0.qgtl2av.mongodb.net/?retryWrites=true&w=majority
   // Google Auth Creds
 // 76448980613-6hsv4g8bpub69ripqm09eenqroau9ns1.apps.googleusercontent.com

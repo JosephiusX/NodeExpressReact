@@ -141,3 +141,7 @@ according to :
 my error may have something to do with the ip address set for my mongo atlas
 
 ?maybe change ip address on my cluster before rebuild
+
+I HAD keys.js in .gitignore INSTEAD OF  dev.js
+
+# Must reset all credentials as they have now been posted publically
