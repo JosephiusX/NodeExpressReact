@@ -119,3 +119,16 @@ with:
         we should see a google id returned
 
 it works!!!
+
+# 50. A Deeper Dive
+
+an overview of how we use middleware with express.
+
+he explains how cookie sessions store information in a way convient to us in that we wont need an express session
+
+# 52. MongoDB Production setup Setting up another Database in 
+
+    we can only have one Atlas cluster, but here we learn how to setup another database inside it. 
+
+    the loophole is to create a new project, within that we create a new database, then we get the connection srv like normal
+
