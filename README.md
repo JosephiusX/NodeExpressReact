@@ -145,3 +145,13 @@ my error may have something to do with the ip address set for my mongo atlas
 I HAD keys.js in .gitignore INSTEAD OF  dev.js
 
 # Must reset all credentials as they have now been posted publically
+
+all creds have been deleted (fresh slate)
+
+lets setup mongodb project clusters with unique connection strings
+
+next we just need to add new credentials for google+ api as it is already enabled
+
+finally I need to fill out the production keys in my heroku app.
+
+git  commit and git push heroku

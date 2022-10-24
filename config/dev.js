@@ -1,30 +1,43 @@
-// emaily-dev
-// rqP599qdjsWebadS
-// mongodb+srv://emaily-dev:rqP599qdjsWebadS@cluster0.ysld0w2.mongodb.net/?retryWrites=true&w=majority
-// Google Auth Creds
-// 681469964951-k7oijtioiq1tmvg9ck5metsvah8ipqnm.apps.googleusercontent.com
-// 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
-// Ports: https://localhost:5000
-// auth redirect URI : http://localhost:5000/auth/google/callback
-// cookie key :mf94j65i9w485ui
 // dev.js - don't commit this!!!
+
+// emailydev
+  // mongodb creds:
+    // i6aoWLWGh3eNdlOg
+    // mongodb+srv://emailydev:i6aoWLWGh3eNdlOg@cluster0.p5muxed.mongodb.net/?retryWrites=true&w=majority
+
+  // Google Auth Creds:
+    // 681469964951-423qi38i1rka7m1n1bjs91l2vfvb7ol2.apps.googleusercontent.com
+    //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
+
+  // cookie key:
+    // aljsdfiasdfjasndf
+
+  // Ports: 
+// http://localhost:5000
+// http://localhost:5000/auth/google/callback
 module.exports = {
-  googleClientID: '681469964951-k7oijtioiq1tmvg9ck5metsvah8ipqnm.apps.googleusercontent.com',
-  googleClientSecret:'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',
-  mongoURI: 'mongodb+srv://emaily-dev:rqP599qdjsWebadS@cluster0.ysld0w2.mongodb.net/?retryWrites=true&w=majority',
-  cookieKey: ':mf94j65i9w485ui', // random
+  googleClientID: '681469964951-423qi38i1rka7m1n1bjs91l2vfvb7ol2.apps.googleusercontent.com',
+  googleClientSecret:'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',
+  mongoURI: 'mongodb+srv://emailydev:i6aoWLWGh3eNdlOg@cluster0.p5muxed.mongodb.net/?retryWrites=true&w=majority',
+  cookieKey: 'aljsdfiasdfjasndf', // random
 }
 
 
 
   // emaily-prod
-// bEuBUFyd4VdpcOxG
-// mongodb+srv://emaily-prod:ug6ZXMMY1GJAlYUB@cluster0.qgtl2av.mongodb.net/?retryWrites=true&w=majority
-  // Google Auth Creds
-// 76448980613-6hsv4g8bpub69ripqm09eenqroau9ns1.apps.googleusercontent.com
-// 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
-  // Ports: https://stormy-lake-15654.herokuapp.com
+    // mongodb creds:
+      //KhzjULNEPp2WLbhx
+      //mongodb+srv://emailyprod:KhzjULNEPp2WLbhx@cluster0.d3e1rmj.mongodb.net/?retryWrites=true&w=majority
+
+    // Google Auth Creds:
+      // 76448980613-ku6radpi241nrne9mjr84mos17kkalae.apps.googleusercontent.com
+      // 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
+
+    // cookie key:
+      // kgmmkotl8skkmslkdf
+
+    // Ports:  
+  // https://stormy-lake-15654.herokuapp.com
   // https://stormy-lake-15654.herokuapp.com/auth/google/callback
-  // cookie key :dfghdfghndfghn
 
 
