@@ -133,3 +133,9 @@ he explains how cookie sessions store information in a way convient to us in tha
     the loophole is to create a new project, within that we create a new database, then we get the connection srv like normal
 
 ?? cannot find module config/keys
+
+according to :
+
+    https://www.udemy.com/course/node-with-react-fullstack-web-development/learn/lecture/7604934#questions/8480184
+
+my error may have something to do with the ip address set for my mongo atlas
