@@ -146,12 +146,21 @@ I HAD keys.js in .gitignore INSTEAD OF  dev.js
 
 # Must reset all credentials as they have now been posted publically
 
-all creds have been deleted (fresh slate)
+    all creds have been deleted (fresh slate)
 
-lets setup mongodb project clusters with unique connection strings
+    lets setup mongodb project clusters with unique connection strings
 
-next we just need to add new credentials for google+ api as it is already enabled
+    next we just need to add new credentials for google+ api as it is already enabled
 
-finally I need to fill out the production keys in my heroku app.
+    finally I need to fill out the production keys in my heroku app.
 
-git  commit and git push heroku
+    git  commit and git push heroku
+
+# 58
+# ITS ALIVE  dev and production environments are setup and working
+
+test production database at this location:
+
+    https://accounts.google.com/o/oauth2/v2/auth
+
+for dev db its the same only localhost.
