@@ -164,3 +164,11 @@ test production database at this location:
     https://accounts.google.com/o/oauth2/v2/auth
 
 for dev db its the same only localhost.
+
+62. Running the Client and Server
+
+using npm module concurrently to run 2 servers at the same time with a single command. see server package.json.  front-end server, back-end server
+
+64. Routing Stumbling Block
+
+71. Client React Setup
