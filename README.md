@@ -172,3 +172,12 @@ using npm module concurrently to run 2 servers at the same time with a single co
 64. Routing Stumbling Block
 
 71. Client React Setup
+
+72. Installing Root Modules
+
+in Client src:
+
+    mkdir components
+in components
+
+    touch App.js
